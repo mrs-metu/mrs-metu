@@ -6,55 +6,25 @@
     <title>Lab Name</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background: #004080;
-            color: white;
-            padding: 15px;
-            font-size: 24px;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #eee;
-            padding: 10px;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #004080;
-            font-weight: bold;
-        }
+        font-family: Arial, sans-serif;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+             }
         iframe {
             width: 100%;
             height: 200px; /* Adjust based on your header height */
             border: none;
         }
-        .content {
-            padding: 20px;
-        }
+
     </style>
 </head>
 <body>
-<<<<<<< Updated upstream
 
     <iframe src="header.html"></iframe>
 
     
-=======
-    <div id="header-container"></div>
-
-    <script>
-        fetch('header.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('header-container').innerHTML = data);
-    </script>
-
->>>>>>> Stashed changes
     <div class="content">
         <h1>Welcome to Our Lab</h1>
         <p>Explore our research, meet our team, and get in touch with us.</p>
@@ -63,6 +33,7 @@
         <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
     </div>
  
+    <iframe src="footer.html" id="footer-frame" scrolling="no"></iframe>
 
 </body>
 </html>
