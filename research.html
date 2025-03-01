@@ -36,162 +36,195 @@
 </head>
 <body>
     <header>Lab Name</header>
-    <nav>
-        <a href="index">Home</a>
-        <a href="people">People</a>
-        <a href="research">Research</a>
-        <a href="contact">Contact</a>
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="people.html">People</a>
+        <a href="research.html">Research</a>
+        <a href="contact.html">Contact</a>
     </nav>
     <div class="content">
        
-<style>
-/* Create two equal columns that floats next to each other */
+    <style>
+    #wrapper {
+      overflow: hidden;
+      width: 400px;
+      height:100px;
 
-#wrapper {
-}
-#paper {
-    display: inline-block;
-    vertical-align: center;
-    width:800px;
-    height:80px;
-}
-#altmetric {
-    display: inline-block;
-    vertical-align: top;
-    width:200px;
-    height:120px;
-}
-#dimension{
-    display: inline-block;
-    vertical-align: top;
-    width:400px;
-    height:120px;
-}
-
-</style>
+    }
+    #paper {
+        float: left;
+        width:300px;
+        height:100px;
+    }
+    #altmetric {
+        display: block;
+        vertical-align: left;
+        overflow: hidden;
+    }
+    .container {
+        width: 800px;
+        margin: auto;
+    }
+    #journals {
+        float: left;      
+        width: 400px;
+        height:auto;
+    }
+   #conference {
+        float: left;      
+        width: 400px;
+        height:auto;
+    }
+    </style>
 
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<div class='container'>
 
-    <p style="font-size:16px"><b><u>Journals</u></b></p>
-
-
-<div id="wrapper">
-  <p style="font-size:14px"> 
-    <a href="https://www.science.org/doi/10.1126/sciadv.adg6438" style="color: black" target="_blank">
-      <b>2023</b> Pangolin-inspired untethered magnetic robot for on-demand biomedical heating applications
-    </a>
-  </p>
-  <p style="font-size:12px">RH Soon, Z Yin, MA Dogan, NO Dogan, = <b>ME Tiryaki</b>,AC Karacakol, A Aydin, P Esmaeili-Dokht, M Sitti</p>
-  
-  <div id="altmetric">
-  	<div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="DOI:10.1038/s41467-023-38689-x" data-link-target="_blank"></div> 
-  </div>
-</div>
+  <div id="journals">
+      <p style="font-size:16px"><b><u>Journals</u></b></p>
 
 
-
-<div id="wrapper">
-  <p style="font-size:14px"> 
-    <a href="https://www.science.org/doi/10.1126/sciadv.adg6438" style="color: black" target="_blank">
-      <b>2023</b> Magnetic guidewire steering at ultrahigh magnetic fields
-    </a>
-  </p>
-  <p style="font-size:12px"> <b>ME Tiryaki</b>, YG Elmacioglu, M Sitti</p>
-  <div id="altmetric">
-  	<div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="DOI: 10.1126/sciadv.adg6438" data-link-target="_blank"></div> 
-  </div>
-</div>
-
-
-
-<div id="wrapper">
-  <p style="font-size:14px"> 
-    <a href="https://ieeexplore.ieee.org/document/9786673" style="color: black" target="_blank">
-      <b>2022</b> Deep Learning-based 3D Magnetic Microrobot Tracking using 2D MR Images
-    </a>
-  </p>
-  <p style="font-size:12px"> <b>ME Tiryaki</b>, SO Demir, M Sitti</p>
-  <div id="altmetric">
-  	<div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="110.1109/LRA.2022.3179509" data-link-target="_blank"></div> 
-  </div>
-</div>
-
-
-
-
-<div id="wrapper">
-  <p style="font-size:14px"> 
-      <a  href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202100178" style="color: black" target="_blank">
-          <b>2022</b> Radio Frequency Sensing‐Based In Situ Temperature Measurements during Magnetic Resonance Imaging Interventional Procedures
-      </a>
-  </p>
-  <p style="font-size:12px">MB Bilgin, <b>ME Tiryaki</b>, J Lazovic, M Sitti</p>
-  <div id="altmetric">
-    <div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="10.1002/admt.202101625" data-link-target="_blank"> </div>
-  </div>
-</div>
-
-<div id="wrapper">
-  <p style="font-size:14px">
-    <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202100178" style="color: black" target="_blank">
-      <b>2022</b> Heat‐Mitigated Design and Lorentz Force‐Based Steering of an MRI‐Driven Microcatheter toward Minimally Invasive Surgery </a>
-  </p>
-  <p style="font-size:12px">M Phelan, <b>ME Tiryaki</b>, J Lazovic, H Gilbert, M Sitti</p>
-  <div id="altmetric">
-    <div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="10.1002/advs.202105352" data-link-target="_blank"> </div>
-  </div>
-</div>
-
-
-<div id="wrapper">
-  <p style="font-size:14px"> <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202100178" style="color: black" target="_blank">
-    <b>2021</b> Magnetic Resonance Imaging‐Based Tracking and Navigation of Submillimeter‐Scale Wireless Magnetic Robots</a>
-  </p>
-  <p style="font-size:12px"><b>ME Tiryaki</b>, M Sitti</p>
-  <div id="altmetric">
-    <div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="10.1002/aisy.202100178" data-link-target="_blank"> </div>
-  </div>
-</div>
-
-
-<div id="wrapper">
-  <p style="font-size:14px"> <a href="https://ieeexplore.ieee.org/abstract/document/9116948" style="color: black" target="_blank">
-    <b>2020</b> A Realistic Simulation Environment for MRI-Based Robust Control of Untethered Magnetic Robots
-    </a>
-  </p>
-  <p style="font-size:12px"><b>ME Tiryaki</b>,O Erin, M Sitti</p>
-  <div id="altmetric">
-    <div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="10.1109/LRA.2020.3002213" data-link-target="_blank"> </div>
-  </div>
-</div>
-
-
-
-    <p style="font-size:16px"><b><u>Conferences</u></b></p>
 
       <div id="wrapper">
-        <p style="font-size:14px"> <a href="https://ieeexplore.ieee.org/abstract/document/9196692?casa_token=HFncFQYC1gIAAAAA:3u2jAk7OcMa7165iGxZWdRSJbmHA5PuLBsx6Dquz4iNVKSXDkdeV5jp5aI9qfYn474Fy13pPB0U6" style="color: black"  target="_blank">
-          <b>2020</b> MRI-powered Magnetic Miniature Capsule Robot with HIFU-controlled On-demand Drug Delivery </a>
-        </p>
-        <p style="font-size:12px"><b>ME Tiryaki</b>, F Dogangun, CB Dayan, P Wrede, M Sitti</p>
+        <div id="paper">
+            <p style="font-size:14px" align="justify"> 
+              <b>ME Tiryaki</b> et al. ,     
+              <a href="https://www.science.org/doi/10.1126/sciadv.adg6438" style="color: black" target="_blank">
+                 Magnetic guidewire steering at ultrahigh magnetic fields
+              </a>
+              , <b>2023</b>
+            </p>
+         </div>
         <div id="altmetric">
-          <div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="https://arxiv.org/abs/2301.07197" data-link-target="_blank"> </div>
+        	<div class="altmetric-embed"   data-badge-type="donut" data-doi="DOI: 10.1126/sciadv.adg6438" data-link-target="_blank"></div> 
         </div>
       </div>
 
-    <p style="font-size:16px"><b><u>Review</u></b></p>
-
       <div id="wrapper">
-        <p style="font-size:14px"> <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.201900110" style="color: black" target="_blank">
-            <b>2020</b> Magnetic Resonance Imaging System–Driven Medical Robotics </a>
-        </p>
-        <p style="font-size:12px">O Erin, M Boyvat, <b>ME Tiryaki</b>, M Phelan, M Sitti</p>
+        <div id="paper">
+          <p style="font-size:14px" align="justify">  
+            <b>ME Tiryaki</b> et al. ,   
+            <a href="https://ieeexplore.ieee.org/document/9786673" style="color: black" target="_blank">
+               Deep Learning-based 3D Magnetic Microrobot Tracking using 2D MR Images 
+            </a>
+            , <b>2022</b>
+          </p>
+        </div>
         <div id="altmetric">
-            <div class="altmetric-embed" data-badge-details="right" data-condensed="true"  data-badge-type="donut" data-doi="10.1002/aisy.201900110" data-link-target="_blank"> </div>
+        	<div class="altmetric-embed"  data-badge-type="donut" data-doi="110.1109/LRA.2022.3179509" data-link-target="_blank"></div> 
         </div>
       </div>
-        
+
+      <div id="wrapper">
+        <div id="paper">
+            <p style="font-size:14px" align="justify">  
+                MB Bilgin  et al. ,  
+                <a  href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202100178" style="color: black" target="_blank">
+                     Radio Frequency Sensing‐Based In Situ Temperature Measurements during Magnetic Resonance Imaging
+                </a>
+                , <b>2022</b>
+            </p>
+        </div>
+
+        <div id="altmetric">
+          <div class="altmetric-embed" data-badge-type="donut" data-doi="10.1002/admt.202101625" data-link-target="_blank"> </div>
+        </div>
+      </div>
+
+      <div id="wrapper">
+        <div id="paper">
+            <p style="font-size:14px" align="justify"> 
+              M Phelan  et al. ,   
+              <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202100178" style="color: black" target="_blank">
+                Heat‐Mitigated Design and Lorentz Force‐Based Steering of an MRI‐Driven Microcatheter
+              </a>
+              ,<b>2022</b> 
+            </p>
+        </div>
+
+        <div id="altmetric">
+          <div class="altmetric-embed"   data-badge-type="donut" data-doi="10.1002/advs.202105352" data-link-target="_blank"> </div>
+        </div>
+      </div>
+
+      <div id="wrapper">
+        <div id="paper">
+            <p style="font-size:14px" align="justify"> 
+              <b>ME Tiryaki</b>
+                <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202100178" style="color: black" target="_blank">
+               Magnetic Resonance Imaging‐Based Tracking and Navigation of Submillimeter‐Scale Wireless Magnetic Robots
+                </a>
+                , <b>2021</b>
+            </p>
+        </div>
+        <div id="altmetric">
+            <div class="altmetric-embed"  data-badge-type="donut" data-doi="10.1002/aisy.202100178" data-link-target="_blank"> </div>
+        </div>
+      </div>
+
+      <div id="wrapper">
+        <div id="paper">
+            <p style="font-size:14px" align="justify"> 
+              <b>ME Tiryaki</b>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9116948" style="color: black" target="_blank">
+               A Realistic Simulation Environment for MRI-Based Robust Control of Untethered Magnetic Robots
+              </a>
+              , <b>2020</b>
+            </p>
+        </div>
+        <div id="altmetric">
+          <div class="altmetric-embed"   data-badge-type="donut" data-doi="10.1109/LRA.2020.3002213" data-link-target="_blank"> </div>
+        </div>
+      </div>
   </div>
+
+
+  <div id="conference">
+      <p style="font-size:16px"><b><u>Conferences</u></b></p>
+
+        <div id="wrapper">
+          <div id="paper">
+              <p style="font-size:14px" align="justify"> 
+                   <b>ME Tiryaki</b> et al.,
+                   <a href="https://ieeexplore.ieee.org/abstract/document/9196692?casa_token=HFncFQYC1gIAAAAA:3u2jAk7OcMa7165iGxZWdRSJbmHA5PuLBsx6Dquz4iNVKSXDkdeV5jp5aI9qfYn474Fy13pPB0U6" style="color: black"  target="_blank">
+                 MRI-powered Magnetic Miniature Capsule Robot with HIFU-controlled On-demand Drug Delivery 
+               </a>
+               ,<b>2022</b>
+              </p>
+          </div>
+
+          <div id="altmetric">
+            <div class="altmetric-embed"   data-badge-type="donut" data-doi="https://arxiv.org/abs/2301.07197" data-link-target="_blank"> </div>
+          </div>
+        </div>
+  </div>
+ 
+  <div id="conference">
+
+     <p style="font-size:16px"><b><u>Review</u></b></p>
+
+          <div id="wrapper">
+            <div id="paper">
+                <p style="font-size:14px" align="justify"> 
+                      O Erin et al.
+                     <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.201900110" style="color: black" target="_blank">
+                         Magnetic Resonance Imaging System–Driven Medical Robotics
+                     </a>
+                     , <b>2020</b>
+                </p>
+            </div>
+
+            <div id="altmetric">
+                <div class="altmetric-embed"   data-badge-type="donut" data-doi="10.1002/aisy.201900110" data-link-target="_blank"> </div>
+            </div>
+          </div>
+            
+      </div>
+
+  </div>
+</div>
+
+   
    
 </body>
 </html>
